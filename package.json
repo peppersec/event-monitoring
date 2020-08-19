@@ -1,0 +1,24 @@
+{
+  "name": "event-monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js --ignore-path .gitignore .",
+    "start": "node src/index.js",
+    "healthcheck": "node src/index.js healthcheck"
+  },
+  "keywords": [],
+  "author": "Roman Semenov <semenov.roma@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.7.0"
+  }
+}
